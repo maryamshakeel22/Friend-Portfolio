@@ -47,7 +47,7 @@ const EmailSection = () => {
           try my best to get back to you!
         </p><br />
         <div className="pb-10 text-white">
-        <span className="bold"><p><MdEmail size={26} />Email fatimaaperveen985@gmail.com</p> <br /></span>
+        <span className="bold"><p><MdEmail size={26} />Email fatimaaparveen985@gmail.com</p> <br /></span>
         <span className="bold"><FaPhone size={26} />Phone no</span> 0327 1733985
         </div>
         <div className="flex justify-center ml-26">
