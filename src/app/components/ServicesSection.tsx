@@ -21,8 +21,8 @@ export default function Services() {
       icon: <FaPalette className="w-[60px] h-[60px] text-purple-500" />,
       details: [
         "Logo Creation",
-        "Color Palette Development",
-        "Typography Systems",
+        "Color Palette",
+        "Typography",
         "Brand Guidelines",
       ],
     },
@@ -86,9 +86,9 @@ export default function Services() {
                   <h2 className="text-white text-lg title-font mb-3 font-serif font-bold">
                     {service.title}
                   </h2>
-                  <ul className="leading-relaxed text-base text-start text-gray-300">
+                  <ul className="leading-relaxed text-base text-start text-gray-300 list-dics pl-5">
                     {service.details.map((detail, i) => (
-                      <li key={i}>{detail}</li>
+                      <li key={i} className="mb-2">{detail}</li>
                     ))}
                   </ul>
                 </div>
