@@ -47,8 +47,8 @@ const EmailSection = () => {
           try my best to get back to you!
         </p><br />
         <div className="pb-10 text-white">
-        <span className="bold"><p><MdEmail size={26} />Email fatimaperveen985@gmail.com</p> <br /></span>
-        <span className="bold"><FaPhone size={26} />Phone no</span> 0327 173985
+        <span className="bold"><p><MdEmail size={26} />Email fatimaaperveen985@gmail.com</p> <br /></span>
+        <span className="bold"><FaPhone size={26} />Phone no</span> 0327 1733985
         </div>
         <div className="flex justify-center ml-26">
             <button className="inline-flex text-white bg-blue-600 border-1 py-2 px-4 focus:outline-none hover:bg-blue-400 text-lg rounded-full animate-bounce">
