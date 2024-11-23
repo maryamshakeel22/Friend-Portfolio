@@ -12,18 +12,6 @@ interface TabData {
 
 const TAB_DATA: TabData[] = [
   {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Adobe Photoshop</li>
-        <li>Adobe Illustrator</li>
-        <li>Adobe xd indesign</li>
-        <li>Figma</li>
-      </ul>
-    ),
-  },
-  {
     title: "Education",
     id: "education",
     content: (
@@ -37,6 +25,38 @@ const TAB_DATA: TabData[] = [
         <li className="font-bold">Bachelor <span className="font-bold bg-[#7600bc]">2021 - 2024</span>
         <br />Bachelor of computer Arts Hamdard University, ISB
         </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Experiance",
+    id: "experiance",
+    content: (
+        <ul className="list-disc pl-2">
+        <li className="font-bold">Graphic Designer and Digital Marketing <span className="font-bold bg-[#7600bc]">March 2024 to May 2024</span>
+        <br />Expert at Pak German Engineers
+        </li><br />
+        <li className="font-bold">Graphic Design Intern <span className="font-bold bg-[#7600bc]">June 2023 to Aug 2023</span>
+        <br />Hamdard University
+        </li><br />
+        <li className="font-bold">UI/UX Designer <span className="font-bold bg-[#7600bc]">Dec 2023 to Sep 2024</span>
+        <br />Crypotokers 
+        </li><br />
+        <li className="font-bold">Graphic & UI/UX Designer <span className="font-bold bg-[#7600bc]">Dec 2023 to Sep 2024</span>
+        <br />Digital Buzz
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Skills",
+    id: "skills",
+    content: (
+      <ul className="list-disc pl-2 text-left">
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe xd indesign</li>
+        <li>Figma</li>
       </ul>
     ),
   },
@@ -60,30 +80,10 @@ const TAB_DATA: TabData[] = [
       </ul>
     ),
   },
-  {
-    title: "Work Experiance",
-    id: "experiance",
-    content: (
-        <ul className="list-disc pl-2">
-        <li className="font-bold">Graphic Designer and Digital Marketing <span className="font-bold bg-[#7600bc]">March 2024 to May 2024</span>
-        <br />Expert at Pak German Engineers
-        </li><br />
-        <li className="font-bold">Graphic Design Intern <span className="font-bold bg-[#7600bc]">June 2023 to Aug 2023</span>
-        <br />Hamdard University
-        </li><br />
-        <li className="font-bold">UI/UX Designer <span className="font-bold bg-[#7600bc]">Dec 2023 to Sep 2024</span>
-        <br />Crypotokers 
-        </li><br />
-        <li className="font-bold">Graphic & UI/UX Designer <span className="font-bold bg-[#7600bc]">Dec 2023 to Sep 2024</span>
-        <br />Digital Buzz
-        </li>
-      </ul>
-    ),
-  },
 ];
 
 const AboutSection: React.FC = () => {
-  const [tab, setTab] = useState<string>("skills");
+  const [tab, setTab] = useState<string>("education");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id: string) => {
