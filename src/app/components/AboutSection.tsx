@@ -29,8 +29,8 @@ const TAB_DATA: TabData[] = [
     ),
   },
   {
-    title: "Experiance",
-    id: "experiance",
+    title: "Experience",
+    id: "experience",
     content: (
         <ul className="list-disc pl-2">
         <li className="font-bold">Graphic Designer and Digital Marketing <span className="font-bold bg-[#7600bc]">March 2024 to May 2024</span>
@@ -55,13 +55,14 @@ const TAB_DATA: TabData[] = [
       <ul className="list-disc pl-2 text-left">
         <li>Adobe Photoshop</li>
         <li>Adobe Illustrator</li>
-        <li>Adobe xd indesign</li>
+        <li>Adobe xd </li>
+        <li>Indesign</li>
         <li>Figma</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
+    title: "Certificates",
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
@@ -109,7 +110,7 @@ const AboutSection: React.FC = () => {
         About Me
       </h1>
       <p className="mb-8 leading-relaxed">
-        I am a Graphic and UI\Ux Designer with 2 years of experience, I
+        I am a Graphic and Ui/Ux Designer with 2+ years of experience, I
         specialize in creating visually stunning and user-friendly designs, from
         brand identity to digital interfaces. My work blends creativity with
         functionality, ensuring every project is both beautiful and effective.
