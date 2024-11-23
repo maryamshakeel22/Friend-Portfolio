@@ -86,7 +86,7 @@ export default function Services() {
                   <h2 className="text-white text-lg title-font mb-3 font-serif font-bold">
                     {service.title}
                   </h2>
-                  <ul className="leading-relaxed text-base text-start text-gray-300 list-dics pl-5">
+                  <ul className="leading-relaxed text-base text-start text-gray-300 list-disc pl-5">
                     {service.details.map((detail, i) => (
                       <li key={i} className="mb-2">{detail}</li>
                     ))}
