@@ -25,7 +25,7 @@ const projectsData: Project[] = [
     id: 1,
     // title: "App Design",
     // description: "hi",
-    image: "/app1.jpg",
+    image: "/app01.jpg",
     tag: [ "UI/UX Design"],
     // gitUrl: "/",
     previewUrl: "https://www.behance.net/fatimaparveen1",
@@ -34,7 +34,7 @@ const projectsData: Project[] = [
     id: 2,
     // title: "App Design",
     // description: "Project 2 description",
-    image: "/app2.jpg",
+    image: "/app02.jpg",
     tag: ["UI/UX Design"],
     // gitUrl: "/",
     previewUrl: "https://www.behance.net/fatimaparveen1",
@@ -106,7 +106,7 @@ const projectsData: Project[] = [
     id: 10,
     // title: "Full-stack Roadmap",
     // description: "Project 5 description",
-    image: "/web4.jpg",
+    image: "/web04.jpg",
     tag: ["UI/UX Design"],
     // gitUrl: "/",
     previewUrl: "https://www.behance.net/fatimaparveen1",
@@ -115,7 +115,7 @@ const projectsData: Project[] = [
     id: 11,
     // title: "Full-stack Roadmap",
     // description: "Project 5 description",
-    image: "/web5.jpg",
+    image: "/web05.jpg",
     tag: ["UI/UX Design"],
     // gitUrl: "/",
     previewUrl: "https://www.behance.net/fatimaparveen1",
@@ -176,13 +176,13 @@ const projectsData: Project[] = [
   },
   {
     id:20,
-    image:"illus7.jpg",
+    image:"illus07.jpg",
     tag:["Graphic Design"],
     previewUrl:"https://www.behance.net/fatimaparveen1"
   },
   {
     id:21,
-    image:"logo1.jpg",
+    image:"logo01.jpg",
     tag:["Graphic Design"],
     previewUrl:"https://www.behance.net/fatimaparveen1"
   },
@@ -235,13 +235,13 @@ const projectsData: Project[] = [
   },
   {
     id:30,
-    image:"sm4.jpg",
+    image:"sm04.jpg",
     tag:["Graphic Design"],
     previewUrl:"https://www.behance.net/fatimaparveen1"
   },
   {
     id:31,
-    image:"sm5.jpg",
+    image:"sm05.jpg",
     tag:["Graphic Design"],
     previewUrl:"https://www.behance.net/fatimaparveen1"
   },
